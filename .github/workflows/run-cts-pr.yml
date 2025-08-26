@@ -27,8 +27,6 @@ jobs:
           - { os: windows-2025, arch: x64, embed_rf: OFF }
           - { os: windows-2022, arch: x64, embed_rf: OFF }
           - { os: windows-2022, arch: x86, embed_rf: OFF }
-          - { os: windows-2019, arch: x64, embed_rf: OFF }
-          - { os: windows-2019, arch: x86, embed_rf: OFF }
 
     steps:
     - name: Checkout Conformance Test Script
