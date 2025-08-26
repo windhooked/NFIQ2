@@ -127,6 +127,9 @@ cmake --build .
 
  * Dependencies for [`libbiomeval`](https://github.com/usnistgov/libbiomeval)
    must be satisfied.
+    * See the `libbiomeval` README section on [installing dependencies](
+      https://github.com/usnistgov/libbiomeval#system-packages) for your
+      operating system.
     * On Windows with Visual Studio, this is done with
       [vcpkg](https://github.com/microsoft/vcpkg), which will require passing
       the vcpkg `CMAKE_TOOLCHAIN_FILE` and `VCPKG_TARGET_TRIPLET` options
@@ -140,10 +143,6 @@ cmake --build .
     * If building a macOS universal binary, be sure all dependencies are
       universal as well. If installed via MacPorts, ensure the `+universal`
       variants are used.
-
-
-Builds for other OS can typically find dependencies on the system without
-intervention.
 
 OpenCV Version
 --------------
